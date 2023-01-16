@@ -15,6 +15,24 @@ body{
 
     
 }
+.hidden{
+    display: none;
+}
+.icon{
+    text-align: center;
+}
+.icon div{
+    width: 45%;
+    display: inline-block;
+}
 .hidden {
     display: none;
+}
+
+.icon div{
+    width: 45%;
+    display: inline-block;
+}
+.icons div img {
+    width: 100;
 }

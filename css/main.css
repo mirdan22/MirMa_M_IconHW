@@ -1,6 +1,20 @@
 /* We typically use one CSS file, named main.css to control all of our pages */
 
 /* this is a class we use to hide headings in our design */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
 .hidden {
     display: none;
 }

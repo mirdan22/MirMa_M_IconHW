@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Icon Marketplace</title>
-</head>
-<body>
-    <header>
-        <h1 class="hidden">My super awesome icon Marketplace </h1>
-        <h2>This is the header</h2>
-            </header>
-            <section class="icons">
-                <div>
-                <img src="images/SVG_icon.png"alt="vector graphic">
-                <img src="bitmapGraphic"alt="vector graphic">
-            </div>
-            
-            <div>
-                <img src="images/SVG_icon-100.jpg"alt="vector graphic">
-
-                </div>
-<!-- inline svg -->
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.69 167.01">
   <defs>
@@ -152,15 +127,3 @@
     <circle class="cls-5" cx="83.49" cy="83.36" r="74.9" transform="translate(-11.52 153.31) rotate(-81.32)"/>
   </g>
 </svg>
-
-            <h2>All my awesome icons</h2>
-            </section>
-        
-            <footer>
-            <h1 class="hidden">footer</h1>
-            <h2>This is the footer</h2>
-            </footer>
-
-        <script src="js/main.js"></script>     
-</body>
-</html>

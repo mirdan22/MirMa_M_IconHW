@@ -1,38 +1,138 @@
-/* We typically use one CSS file, named main.css to control all of our pages */
-
-/* this is a class we use to hide headings in our design */
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
 }
 
-body{
-    font-size: 16px;
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+.hidden { display: none; }
 
-    
-}
-.hidden{
-    display: none;
-}
-.icon{
-    text-align: center;
-}
-.icon div{
-    width: 45%;
-    display: inline-block;
-}
-.hidden {
-    display: none;
+html, body { height: 100% }
+
+body { 
+font-family: sans-serif;
+color: white;
+background-color: #ffffff; 
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: overlay;
 }
 
-.icon div{
-    width: 45%;
-    display: inline-block;
+header { 
+background-color: #2d2e2e; 
+position: sticky; 
+top: 0;
 }
-.icons div img {
-    width: 100;
+
+header nav { position: relative; }
+
+header nav ul { 
+list-style-type: none; 
+position: absolute; 
+top: -65px; 
+
+margin-left: 280px;
+text-align: center;
+font-size: 30px;
+letter-spacing: 4px;
 }
+
+header nav ul li { 
+margin: 0 8px; 
+display: inline-block;
+cursor: pointer;
+}
+
+
+
+header nav ul li:hover { opacity: 0.8; }
+
+#main-logo { width: 200px; padding: 10px 0 10px 10px; }
+
+#icons-nav { 
+text-align: center; 
+padding-top: 16px;
+margin-bottom: 1em;
+}
+
+.icons { list-style-type: none; }
+
+.icons li { 
+display: inline-block;
+position: relative;
+width: 200px;
+height: 235px;
+margin: 12px 8px;
+background-color:rgb(189 189 189);
+border-radius: 10px;
+box-shadow: 15px #bdbdbd;
+
+padding-top: 8px;
+text-align: center;
+overflow: hidden;
+}
+
+.icons li div { 
+width: 160px;
+height: 160px;
+border-radius: 50%;
+
+overflow: hidden;
+
+margin: 0 auto 1em auto;
+}
+
+.icons li img { max-width: 100%; }
+
+
+input[type="checkbox"] { margin-right: 8px; }
+
+
+input[type="checkbox"]:checked + span::after {
+content: '\2713';
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: rgb(255, 255, 255);
+border: 4px solid #000000;
+position: absolute;
+top: 10px;
+right: 18px;
+font-size: 1em;
+color: #000000;
+
+animation: fadeIn 0.3s;
+}
+
+article {
+padding: 20px;
+}
+
+article h3 { 
+font-size: 2.5em; 
+text-align: center; 
+margin-bottom: 14px;
+}
+
+article p { 
+width: 80%; 
+font-size: 18px; 
+line-height: 1.2; 
+text-align: center;
+margin: 0 auto;
+}
+
+footer { 
+color: white;
+padding: 20px 0;
+text-align: center; 
+}
+
+.sticky_footer {
+position: sticky;
+top: 100%;
+
+height: 80px;
+background-color: #2d2e2e;
+}
+

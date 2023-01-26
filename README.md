@@ -1,8 +1,9 @@
-# my Super Awesome Icon Project
+# iCON Marketplace
 
 
 TODO: Write a project description
-
+wlcome to iCon marketplace were you can browse all music related icons.  You are able to browse and select yuor favorate icons and add to your favorate section!
+Hover over any icon too see againts dark background to help with choosing the appropriate icon for you. 
 
 
 
